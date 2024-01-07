@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: royalblue;
+    font-size: 20px;
+}
+
+#mainbtn {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    padding: 3px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid;
+    background: #3454b4;
+    border-radius: 5px;
+}
+
+#mainbtn:hover {
+    background: #2444a4;
+    transform: translate(calc(3px - 50%), -1px);
+}
+
+#mainbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+details:not(:last-child) {
+    margin-bottom: 50px;
+}
